@@ -1,0 +1,119 @@
+/*main styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/*header styles*/
+
+header{
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    align-items: center;
+}
+
+.head-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.navbar > ul > li{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar > ul > li:hover{
+    color: #2196F3;
+}
+
+.head-right > a{
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.head-right > a:hover{
+    color: #2196F3;
+}
+
+.head-right > h4{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    color: #757575;    
+}
+
+/*main section styles*/
+
+main{
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;    
+}
+
+.main-con{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.main-con > h1{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    color: white;
+}
+
+.head-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;    
+    color: white;
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;    
+}
+
+.head-btn:hover{
+    background-color: rgb(224, 220, 220);
+    color: #2196F3;
+}
